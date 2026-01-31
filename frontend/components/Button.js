@@ -1,4 +1,4 @@
-export default function Button({ children, onClick, type = "button", disabled = false, className = "", variant = "primary" }) {
+export default function Button({ children, onClick, type = "button", disabled = false, loading = false, className = "", variant = "primary" }) {
     const baseStyle = "px-6 py-2.5 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-1 disabled:opacity-50 disabled:cursor-not-allowed";
 
     const variants = {
@@ -11,10 +11,10 @@ export default function Button({ children, onClick, type = "button", disabled = 
         <button
             type={type}
             onClick={onClick}
-            disabled={disabled}
+            disabled={disabled || loading}
             className={`${baseStyle} ${variants[variant]} ${className}`}
         >
-            {disabled ? (
+            {loading ? (
                 <span className="flex items-center gap-2">
                     <svg className="animate-spin h-5 w-5 text-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>

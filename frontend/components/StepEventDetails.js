@@ -16,7 +16,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="eventName"
                         value={formData.eventDetails.eventName || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none text-gray-900"
                         placeholder="e.g. Annual Tech Conference 2024"
                         required
                     />
@@ -28,7 +28,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="eventType"
                         value={formData.eventDetails.eventType || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none bg-white"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none bg-white text-gray-900"
                     >
                         <option value="">Select Type</option>
                         <option value="corporate">Corporate</option>
@@ -46,7 +46,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="venue"
                         value={formData.eventDetails.venue || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none text-gray-900"
                         placeholder="e.g. Grand Hall"
                     />
                 </div>
@@ -58,7 +58,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="startDate"
                         value={formData.eventDetails.startDate || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none text-gray-900"
                     />
                 </div>
 
@@ -69,7 +69,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="endDate"
                         value={formData.eventDetails.endDate || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none text-gray-900"
                     />
                 </div>
 
@@ -80,7 +80,7 @@ export default function StepEventDetails({ formData, updateFormData }) {
                         name="location"
                         value={formData.eventDetails.location || ''}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all outline-none text-gray-900"
                         placeholder="City, State or Full Address"
                     />
                 </div>

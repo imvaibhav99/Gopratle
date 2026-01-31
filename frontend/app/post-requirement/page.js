@@ -133,7 +133,7 @@ export default function PostRequirementPage() {
                                 Next Step
                             </Button>
                         ) : (
-                            <Button onClick={handleSubmit} disabled={isSubmitting}>
+                            <Button onClick={handleSubmit} loading={isSubmitting}>
                                 Post Requirement
                             </Button>
                         )}

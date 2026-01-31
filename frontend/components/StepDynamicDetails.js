@@ -12,7 +12,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                     <>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Planning Type</label>
-                            <select name="planningType" onChange={handleChange} value={formData.requirementDetails.planningType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none">
+                            <select name="planningType" onChange={handleChange} value={formData.requirementDetails.planningType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900">
                                 <option value="">Select...</option>
                                 <option value="Full Service">Full Service</option>
                                 <option value="Partial">Partial / Coordination</option>
@@ -21,7 +21,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                         </div>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Experience Level</label>
-                            <select name="experienceLevel" onChange={handleChange} value={formData.requirementDetails.experienceLevel || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none">
+                            <select name="experienceLevel" onChange={handleChange} value={formData.requirementDetails.experienceLevel || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900">
                                 <option value="">Select...</option>
                                 <option value="Junior">Junior (1-2 yrs)</option>
                                 <option value="Mid">Mid-Level (3-5 yrs)</option>
@@ -35,7 +35,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                     <>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Performer Type</label>
-                            <select name="performerType" onChange={handleChange} value={formData.requirementDetails.performerType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none">
+                            <select name="performerType" onChange={handleChange} value={formData.requirementDetails.performerType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900">
                                 <option value="">Select...</option>
                                 <option value="Singer">Singer</option>
                                 <option value="DJ">DJ</option>
@@ -46,7 +46,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                         </div>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Duration (Hours)</label>
-                            <input type="number" name="durationHours" placeholder="e.g. 4" onChange={handleChange} value={formData.requirementDetails.durationHours || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none" />
+                            <input type="number" name="durationHours" placeholder="e.g. 4" onChange={handleChange} value={formData.requirementDetails.durationHours || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900" />
                         </div>
                     </>
                 );
@@ -55,7 +55,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                     <>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Crew Type</label>
-                            <select name="crewType" onChange={handleChange} value={formData.requirementDetails.crewType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none">
+                            <select name="crewType" onChange={handleChange} value={formData.requirementDetails.crewType || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900">
                                 <option value="">Select...</option>
                                 <option value="Sound">Sound Engineer</option>
                                 <option value="Light">Lighting Technician</option>
@@ -65,7 +65,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                         </div>
                         <div className="space-y-2">
                             <label className="text-sm font-medium text-gray-700">Number of People</label>
-                            <input type="number" name="numberOfPeople" placeholder="e.g. 2" onChange={handleChange} value={formData.requirementDetails.numberOfPeople || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none" />
+                            <input type="number" name="numberOfPeople" placeholder="e.g. 2" onChange={handleChange} value={formData.requirementDetails.numberOfPeople || ''} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900" />
                         </div>
                     </>
                 );
@@ -91,7 +91,7 @@ export default function StepDynamicDetails({ formData, updateFormData }) {
                             placeholder="5000"
                             onChange={handleChange}
                             value={formData.requirementDetails.budget || ''}
-                            className="w-full pl-8 pr-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none"
+                            className="w-full pl-8 pr-4 py-3 rounded-lg border border-gray-200 focus:border-indigo-500 outline-none text-gray-900"
                         />
                     </div>
                 </div>
