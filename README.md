@@ -2,6 +2,10 @@
 
 GoPratle is a platform for posting event requirements, connecting planners, performers, and crew members. This application features a multi-step form for detailed requirement posting, categorized by hire type.
 
+## Demo
+
+<video src="frontend/public/demo.mov" controls="controls" style="max-width: 100%;"></video>
+
 ## Tech Stack
 
 **Frontend:**
