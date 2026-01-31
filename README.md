@@ -4,7 +4,7 @@ GoPratle is a platform for posting event requirements, connecting planners, perf
 
 ## Demo
 
-<video src="frontend/public/demo.mov" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/imvaibhav99/Gopratle/raw/main/frontend/public/demo.mov" controls="controls" style="max-width: 100%;"></video>
 
 ## Tech Stack
 
